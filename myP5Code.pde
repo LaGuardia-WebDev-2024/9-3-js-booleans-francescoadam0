@@ -21,11 +21,13 @@ draw = function() {
   if (theNumber > 0 ){
     rect(5, 60, 200, 40); 
   }
-if (theNumber < 0){
- rect(5, 100, 200, 50); 
-}
+
+  if (theNumber < 0){
+   rect(5, 110, 200, 50); 
+  }
+  
   if (theNumber == 0){
-  rect(5, 150, 200, 50); 
+    rect(5, 160, 200, 50); 
   }
 
 };
